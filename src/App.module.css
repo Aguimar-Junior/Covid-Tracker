@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(218, 213, 225);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+span{
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.image {
+  animation: rotate 10s linear infinite;
+  width: 370px;
+  margin-top: 20px;
+  transition: all ;
+}
+
+@keyframes rotate{
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
